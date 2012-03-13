@@ -1,3 +1,11 @@
+Install node.js
+Once installed, open terminal to this directory and run
+
+node app.js /dev/yourSerialPortName
+eg. node app.js /dev/tty.usbmodem411
+
+To set this up from scratch, Terminal commands as follows:
+
 mkdir nodeExpressSerial
 cd nodeExpressSerial/
 npm install express
@@ -5,7 +13,3 @@ express
 npm install -d
 npm install now
 npm install serialport
-
-install redis via make
-npm install hiredis redis
-
