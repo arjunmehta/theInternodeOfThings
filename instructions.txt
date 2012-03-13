@@ -1,0 +1,11 @@
+mkdir nodeExpressSerial
+cd nodeExpressSerial/
+npm install express
+express
+npm install -d
+npm install now
+npm install serialport
+
+install redis via make
+npm install hiredis redis
+
