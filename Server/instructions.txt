@@ -1,8 +1,10 @@
-Install node.js
+Install node.js (http://nodejs.org/)
 Once installed, open terminal to this directory and run
 
 node app.js /dev/yourSerialPortName
 eg. node app.js /dev/tty.usbmodem411
+
+It should work, but you may need to install all the dependencies and extensions first. I don't actually know :(
 
 Connect a web client/browser to localhost:3000
 Connect your Arduino.
