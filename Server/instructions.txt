@@ -4,6 +4,15 @@ Once installed, open terminal to this directory and run
 node app.js /dev/yourSerialPortName
 eg. node app.js /dev/tty.usbmodem411
 
+Connect a web client/browser to localhost:3000
+Connect your Arduino.
+
+When new serial information is written from the Arduino to the serialport, the server will transmit it to all connected clients.
+
+
+------
+
+
 To set this up from scratch, Terminal commands as follows:
 
 mkdir nodeExpressSerial
@@ -13,3 +22,5 @@ express
 npm install -d
 npm install now
 npm install serialport
+
+You'll have a virgin app.js file without any of the serial port read, or now.js stuff working.
